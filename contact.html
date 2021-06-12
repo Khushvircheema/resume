@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- <meta http-equiv="refresh" content="2"> -->
+  <title>Contact Details</title>
+</head>
+
+<body>
+  <h1>Contact Details</h1>
+  <ul>
+    <li>Phone: 893420758</li>
+    <li> email: cjlajfh@fjlajf.com</li>
+  </ul>
+  <hr>
+  <!-- forms are used to take information from The user -->
+  <!-- the action defines what whould happen when we submit the form, -->
+  <!-- mailto will open the mail in the user's window -->
+  <!-- enctype will encode the information in plain text -->
+  <form action="mailto:cheemakhushvirsingh@gmail.com" method="post" enctype="text/plain" autocomplete="on">
+    <!-- the label will add the label regarding the information the website is asking -->
+    <label for="">Your name: </label>
+    <!-- input will take the input from user and it can of type text, password or anything -->
+    <!-- the name attribute will classify the data filled in the text or email -->
+    <input type="text" name="Your message" value="">
+    <!-- the type submit will add the submit button to the form and if calue argument is deleted it will have submit text on the button -->
+    <!-- we can write anything in the value argument and it will be printed on the button -->
+    <br><br>
+    <label for="">Your email</label>
+    <input type="email" name="Your Email">
+    <br><br>
+    <label for="">Your date of Birth</label>
+    <input type="date" name="Your Date">
+    <br><br>
+    <label>Your Message</label>
+    <br>
+    <textarea name="name" rows="4" cols="40"></textarea>
+    <br><br>
+    <label for="">Upload your image</label>
+    <input type="file" name=" Your Image" value="">
+    <br><br>
+    <input type="checkbox" name="Your checked the box">
+    <label for="">I accept the terms and conditions</label>
+    <br><br>
+    <input type="submit" name="your submit">
+
+
+
+  </form>
+</body>
+
+</html>
